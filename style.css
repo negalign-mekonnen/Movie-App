@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,200&family=Poppins:ital,wght@0,200;0,400;0,500;1,600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #22254b;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+.search{
+    width: 150px;
+    height: 30px;
+    margin: 30px 30px 0 0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #eee;
+    text-indent: 4px;
+}
+.head{
+    margin: 30px 0 0 30px;
+    color: #eee;
+}
+.movie-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding:10px;
+    margin: 30px;
+}
+.movies{
+    margin: 0.5rem;
+    width: 300px;
+    background-color: #373b69;
+    border-radius: 3px;
+    box-shadow:  0 4px 5px rgba(0,0,0,0.2);
+}
+.movies img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    cursor: pointer;
+}
+.movies .movie-info{
+    color: #eee;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    letter-spacing: 1px;
+    align-items: center;
+
+}
+.movie-info h3{
+    margin: 0;
+    padding: 0;
+}
+.movie-info span{
+    margin: 0;
+    color: yellow;
+    background-color: #222522;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+}
+.id{
+    display: none;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.btn-link{
+    text-decoration: none;
+}
+.btn{
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #44476a;
+    width: 500px;
+    height: 30px;
+   
+    
+}
+.cards{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    padding:10px;
+    margin: 30px;
+    margin: 20px;
+    
+}
+.card{
+    height: 540px;
+    width: 500px;
+    background: #373b69;
+    
+}
+.card-image img{
+    position: relative;
+    width: 500px;
+    height: 540px;
+    border-radius: 5px;
+}
+.card .card-info{
+    background: #373b69;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    letter-spacing: 1px;
+    align-items: center;
+
+}
+.card-info h3{
+    margin: 0;
+    padding: 0;
+}
+.card-info span{
+    margin: 0;
+    color: yellow;
+    background-color: #222522;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+}
+.overview{
+    color: #eee;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -40%;
+    font-family: "Poppins", sans-serif;
+}
